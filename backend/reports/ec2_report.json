@@ -1,0 +1,14 @@
+[
+  {
+    "instance_id": "i-84738",
+    "cpu_usage": 4,
+    "monthly_cost": 120,
+    "recommendation": "Terminate instance"
+  },
+  {
+    "instance_id": "i-29384",
+    "cpu_usage": 75,
+    "monthly_cost": 300,
+    "recommendation": "Healthy"
+  }
+]

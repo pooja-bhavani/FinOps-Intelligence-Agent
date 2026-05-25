@@ -1,0 +1,16 @@
+[
+  {
+    "severity": "high",
+    "resource": "i-84738",
+    "issue": "Low CPU utilization",
+    "recommendation": "Terminate instance",
+    "estimated_monthly_savings": 120
+  },
+  {
+    "severity": "medium",
+    "resource": "inventory-worker",
+    "issue": "Idle Kubernetes workload",
+    "recommendation": "Scale deployment to zero",
+    "estimated_monthly_savings": 40
+  }
+]

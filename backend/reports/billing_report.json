@@ -1,0 +1,20 @@
+[
+  {
+    "service": "Amazon EC2",
+    "monthly_cost": 620,
+    "estimated_savings": 180,
+    "optimization_status": "Underutilized instances detected"
+  },
+  {
+    "service": "Amazon EKS",
+    "monthly_cost": 420,
+    "estimated_savings": 90,
+    "optimization_status": "Idle Kubernetes workloads"
+  },
+  {
+    "service": "Amazon RDS",
+    "monthly_cost": 200,
+    "estimated_savings": 50,
+    "optimization_status": "Storage overprovisioned"
+  }
+]

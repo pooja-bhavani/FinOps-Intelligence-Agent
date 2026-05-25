@@ -1,0 +1,23 @@
+[
+  {
+    "pod_name": "frontend-pod",
+    "namespace": "production",
+    "cpu_usage": 5,
+    "memory_usage": 20,
+    "status": "Running"
+  },
+  {
+    "pod_name": "payment-service",
+    "namespace": "production",
+    "cpu_usage": 90,
+    "memory_usage": 85,
+    "status": "Running"
+  },
+  {
+    "pod_name": "analytics-job",
+    "namespace": "batch",
+    "cpu_usage": 2,
+    "memory_usage": 10,
+    "status": "Running"
+  }
+]

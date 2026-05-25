@@ -1,0 +1,26 @@
+[
+  {
+    "pod_name": "payment-service",
+    "namespace": "production",
+    "cpu_usage": 3,
+    "memory_usage": 120,
+    "status": "Running",
+    "recommendation": "Scale down deployment"
+  },
+  {
+    "pod_name": "cart-service",
+    "namespace": "production",
+    "cpu_usage": 65,
+    "memory_usage": 450,
+    "status": "Running",
+    "recommendation": "Healthy workload"
+  },
+  {
+    "pod_name": "inventory-worker",
+    "namespace": "staging",
+    "cpu_usage": 1,
+    "memory_usage": 90,
+    "status": "Idle",
+    "recommendation": "Terminate unused pod"
+  }
+]

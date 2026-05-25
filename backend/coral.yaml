@@ -1,0 +1,71 @@
+name: finops_agent
+version: 0.1.0
+backend: http
+dsl_version: 3
+
+base_url: http://127.0.0.1:8000
+
+tables:
+
+  - name: ec2_instances
+    description: EC2 infrastructure telemetry metrics
+
+    request:
+      method: GET
+      path: /ec2
+
+    columns:
+      - name: instance_id
+        type: Utf8
+
+      - name: instance_type
+        type: Utf8
+
+      - name: cpu_usage
+        type: Int64
+
+      - name: monthly_cost
+        type: Int64
+
+      - name: state
+        type: Utf8
+
+  - name: kubernetes_metrics
+    description: Kubernetes workload telemetry metrics
+
+    request:
+      method: GET
+      path: /kubernetes
+
+    columns:
+      - name: pod_name
+        type: Utf8
+
+      - name: namespace
+        type: Utf8
+
+      - name: cpu_usage
+        type: Int64
+
+      - name: memory_usage
+        type: Int64
+
+      - name: status
+        type: Utf8
+
+  - name: billing_metrics
+    description: Cloud billing telemetry metrics
+
+    request:
+      method: GET
+      path: /billing
+
+    columns:
+      - name: monthly_cost
+        type: Int64
+
+      - name: estimated_savings
+        type: Int64
+
+      - name: idle_resources
+        type: Int64

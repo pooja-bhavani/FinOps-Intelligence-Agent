@@ -1,0 +1,23 @@
+[
+  {
+    "instance_id": "i-123456",
+    "instance_type": "t3.large",
+    "cpu_usage": 8,
+    "monthly_cost": 120,
+    "state": "running"
+  },
+  {
+    "instance_id": "i-789012",
+    "instance_type": "t3.medium",
+    "cpu_usage": 75,
+    "monthly_cost": 80,
+    "state": "running"
+  },
+  {
+    "instance_id": "i-567890",
+    "instance_type": "m5.large",
+    "cpu_usage": 3,
+    "monthly_cost": 200,
+    "state": "running"
+  }
+]
